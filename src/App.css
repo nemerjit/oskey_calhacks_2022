@@ -53,6 +53,30 @@ input {
   padding: 0 10px;
 }
 
+.sheet_title {
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
+
+.action_btn {
+  border-radius: 100px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 80px;
+  margin-right: 80px;
+  height: 50px; width: 50px;
+  font-size: 15px;
+}
+
+.sheet_box {
+  height: 230px;
+  width: 180px;
+  background-color: rgba(237, 235, 235, 0.558);
+  border-radius: 15px;
+  padding-top: 10px;
+}
+
 input[placeholder] {
   font-weight: 300px;
   color: #767b76; 
