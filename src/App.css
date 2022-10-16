@@ -223,3 +223,19 @@ input[placeholder] {
 
 
 }
+
+.sheet-music-icon {
+  width: 20px;
+  height: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center {
+  text-align: center;
+}
+
+.sheetmusic {
+  display: inline-block;
+}
