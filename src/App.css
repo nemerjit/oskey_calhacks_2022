@@ -1,6 +1,4 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
 
 .circular {
   border-radius: 50%;
@@ -18,7 +16,57 @@
   text-decoration: none;
 }
 
+/* Login/Sign Up Styling */
 
+.login-signup-wrapper {
+  margin-top: 8%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0;
+  padding: 0;
+  height: 100%;
+  
+}
 
+.login-signup-form {
+  margin-top: 2.5%;
+  font-family: 'Roboto Condensed', sans-serif
+}
 
+.login-signup-link {
+  font-size: 10px;
+  text-align: center;
+  margin-top: 10px;
+}
 
+.login-signup-txt {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+input {
+  border: none;
+  height: 50px;
+  width: 500px;
+  background-color: #b3bbb824; 
+  border-radius: 10px;
+  padding: 0 10px;
+}
+
+input[placeholder] {
+  font-weight: 300px;
+  color: #767b76; 
+}
+
+.account-btn {
+  background-color:  #fc8ab6; 
+  margin-bottom: 0;
+}
+
+.compose-music-img {
+  height: 20%;
+  margin-bottom: 5%;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+}
