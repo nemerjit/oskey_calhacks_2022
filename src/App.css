@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Roboto+Condensed:wght@300;400;700&display=swap');
 .circular {
   border-radius: 50%;
 }
@@ -30,7 +29,7 @@
 
 .login-signup-form {
   margin-top: 2.5%;
-  font-family: 'Roboto Condensed', sans-serif
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .login-signup-link {
@@ -93,4 +92,93 @@ input[placeholder] {
   margin-right: auto;
   margin-left: auto;
   display: block;
+}
+
+#home-wrapper {
+  font-family: 'Playfair Display', sans-serif;
+  display: flex;
+  justify-content: center;
+  height: 800px;
+  align-items: center;
+  background-image: url("images/musicalinstruments.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 0;
+}
+
+#home-txt {
+  font-size: 100px;
+  text-align: center;
+  margin-bottom: 50px;
+  background: rgb(255, 255, 255, 0.6);
+  padding: 10px 30px;
+}
+
+#get-started-btn {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; 
+  padding: 13px 30px;
+  font-size: 25px;
+  font-weight: 500;
+  text-decoration: none;
+}
+ 
+/* newmusic page styling */
+
+#new-music-wrapper {
+  font-family: 'Roboto Condensed', 'sans-serif';
+  background: black;
+  margin-bottom: 0;
+  margin-top: -8px;
+  padding: 3%;
+}
+
+#new-music-header {
+  text-align: center;
+  font-family: 'Roboto Condensed', 'sans-serif';
+  color: white;
+}
+
+#upload-img {
+  width: 4%;
+  margin-right: 3%;
+  
+}
+
+#upload-btn {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background: white;
+  line-height: 40px;
+  width: 30%;
+  border: solid black 2px;
+  border-radius: 10px;
+}
+
+#song-name-input {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#song-name-input[placeholder] {
+  color: white;
+}
+
+#generate-btn {
+  margin-top: 15%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+}
+
+#music-info {
+  margin-top: 10%;
+}
+
+.newmusic {
+  background: black;
 }

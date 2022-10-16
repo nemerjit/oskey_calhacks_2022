@@ -7,7 +7,7 @@ function NavBar() {
         <nav className="navbar navbar-light bg-light">
             <NavLink className="navbar-brand" >Navbar</NavLink>
             <span>
-                <NavLink className="navbar-text" >Login</NavLink>
+                <NavLink className="navbar-text" to="/login">Login</NavLink>
             </span>
         </nav>
     );
