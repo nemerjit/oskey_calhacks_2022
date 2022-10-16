@@ -7,6 +7,10 @@ body {
   padding-left: 20px;
 }
 
+.navbar {
+  margin-left: -2%;
+}
+
 
 /* Navbar styling */
 .navbar-brand {
@@ -79,6 +83,7 @@ input {
   border-radius: 15px;
   padding-top: 10px;
   margin-right: 20px;
+  margin-top: 30px;
 }
 
 input[placeholder] {
@@ -108,7 +113,8 @@ input[placeholder] {
   background-image: url("images/musicalinstruments.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  margin-bottom: 0;
+  margin-left: -3%;
+  margin-bottom: -2%;
 }
 
 #home-txt {
@@ -132,6 +138,7 @@ input[placeholder] {
 /* newmusic page styling */
 
 #new-music-wrapper {
+  margin-left: -3%;
   font-family: 'Roboto Condensed', 'sans-serif';
   background: black;
   margin-bottom: 0;
@@ -186,4 +193,11 @@ input[placeholder] {
 
 .newmusic {
   background: black;
+}
+
+.sheet {
+  height: 600px;
+  width: 500px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
 }
