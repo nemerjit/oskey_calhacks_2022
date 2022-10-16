@@ -3,6 +3,10 @@
   border-radius: 50%;
 }
 
+body {
+  padding-left: 20px;
+}
+
 
 /* Navbar styling */
 .navbar-brand {
@@ -74,6 +78,7 @@ input {
   background-color: rgba(237, 235, 235, 0.558);
   border-radius: 15px;
   padding-top: 10px;
+  margin-right: 20px;
 }
 
 input[placeholder] {
